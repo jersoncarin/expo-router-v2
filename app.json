@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "Inkwind",
-    "slug": "inkwind-app",
+    "name": "Expo router",
+    "slug": "expo-router-v2",
     "version": "1.0.0",
     "orientation": "portrait",
     "scheme": "inkwind",
