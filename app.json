@@ -1,11 +1,16 @@
 {
   "expo": {
-    "name": "inkwind-app",
+    "name": "Inkwind",
     "slug": "inkwind-app",
     "version": "1.0.0",
     "orientation": "portrait",
+    "scheme": "inkwind",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
+    "experiments": {
+      "typedRoutes": true,
+      "tsconfigPaths": true
+    },
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
@@ -24,7 +29,14 @@
       }
     },
     "web": {
-      "favicon": "./assets/favicon.png"
-    }
+      "favicon": "./assets/favicon.png",
+      "web": {
+        "bundler": "metro",
+        "output": "dist"
+      }
+    },
+    "plugins": [
+      "expo-router"
+    ]
   }
 }
